@@ -1,0 +1,53 @@
+*{
+   background-color: rgb(247, 184, 194);
+}
+.a{
+    width: 30%;
+    height: 70%;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+
+.photos {
+    position: relative;
+    display: inline-block;
+}
+
+#photo {
+    width: 300px;
+    height: 450px;
+    margin: 90px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 18px;
+    
+}
+#pp{
+    display: flex;
+    margin-left: 65px;
+    margin-top: -50px;
+}
+  
+ #logo{
+    
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 40%;
+    
+} 
+
+
+#heart {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: rgb(228, 83, 83);
+    display: none;
+    animation: fadeOut 2s forwards;
+}
+
+
